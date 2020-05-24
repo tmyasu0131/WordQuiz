@@ -1,0 +1,24 @@
+PODS:
+  - SVProgressHUD (2.2.5)
+  - SwiftCop (1.1.0)
+  - TPKeyboardAvoiding (1.3.3)
+
+DEPENDENCIES:
+  - SVProgressHUD (= 2.2.5)
+  - SwiftCop
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
+    - SwiftCop
+    - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftCop: 52c1c097f0549f605b986832c1661f3275b82df2
+  TPKeyboardAvoiding: 6dd3fe3268b8f2627beb7ff3d82a3cacbdf66a36
+
+PODFILE CHECKSUM: a75184eb12d242d4c7ef13a4185f03868014970c
+
+COCOAPODS: 1.9.1

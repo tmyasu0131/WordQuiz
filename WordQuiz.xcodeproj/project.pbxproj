@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A157A872468C427002802BB /* TopSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A157A862468C427002802BB /* TopSettingViewController.swift */; };
+		5A22C35D24693CFD003351A7 /* AP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A22C35C24693CF1003351A7 /* AP.ttf */; };
+		5A22C360246954F2003351A7 /* quizBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A22C35E246954EE003351A7 /* quizBGM.mp3 */; };
+		5A22C361246954F2003351A7 /* mainBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A22C35F246954F2003351A7 /* mainBGM.mp3 */; };
+		5A22C363246A317B003351A7 /* ZukanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22C362246A317B003351A7 /* ZukanViewController.swift */; };
 		5A42C955245C498100745981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C954245C498100745981 /* AppDelegate.swift */; };
 		5A42C957245C498100745981 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C956245C498100745981 /* SceneDelegate.swift */; };
 		5A42C959245C498100745981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C958245C498100745981 /* ViewController.swift */; };
 		5A42C95C245C498100745981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C95A245C498100745981 /* Main.storyboard */; };
 		5A42C95E245C498700745981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C95D245C498700745981 /* Assets.xcassets */; };
 		5A42C961245C498700745981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C95F245C498700745981 /* LaunchScreen.storyboard */; };
+		5A42C969245D30D300745981 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C968245D30D300745981 /* StartViewController.swift */; };
+		5A42C96B245D347800745981 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C96A245D347800745981 /* CreateViewController.swift */; };
+		5A42C972245D765700745981 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C970245D765700745981 /* wrong.mp3 */; };
+		5A42C973245D765700745981 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C971245D765700745981 /* correct.mp3 */; };
+		5AB249E52464044B009897AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB249E42464044B009897AF /* SettingViewController.swift */; };
+		5AE37ABF245F06B100FC2485 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE37ABE245F06B100FC2485 /* PostViewController.swift */; };
+		5AE37AC12460175200FC2485 /* HogeTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE37AC02460175200FC2485 /* HogeTrial.swift */; };
+		5AFC1D5C24691EA900DDA67D /* KodomoRounded.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFC1D5B24691B3100DDA67D /* KodomoRounded.otf */; };
+		C735320E44BA59365C6FF864 /* Pods_WordQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DEBCBC6548B2A1E9758353 /* Pods_WordQuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47011A74B1B677CFC899BF8C /* Pods-WordQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordQuiz.debug.xcconfig"; path = "Target Support Files/Pods-WordQuiz/Pods-WordQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		49DEBCBC6548B2A1E9758353 /* Pods_WordQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A157A862468C427002802BB /* TopSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSettingViewController.swift; sourceTree = "<group>"; };
+		5A22C35C24693CF1003351A7 /* AP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AP.ttf; sourceTree = "<group>"; };
+		5A22C35E246954EE003351A7 /* quizBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quizBGM.mp3; sourceTree = "<group>"; };
+		5A22C35F246954F2003351A7 /* mainBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainBGM.mp3; sourceTree = "<group>"; };
+		5A22C362246A317B003351A7 /* ZukanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZukanViewController.swift; sourceTree = "<group>"; };
 		5A42C951245C498100745981 /* WordQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A42C954245C498100745981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A42C956245C498100745981 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,15 @@
 		5A42C95D245C498700745981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A42C960245C498700745981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A42C962245C498700745981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A42C968245D30D300745981 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5A42C96A245D347800745981 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		5A42C970245D765700745981 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		5A42C971245D765700745981 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		5A64053BCB971130CECF4152 /* Pods-WordQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordQuiz.release.xcconfig"; path = "Target Support Files/Pods-WordQuiz/Pods-WordQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		5AB249E42464044B009897AF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5AE37ABE245F06B100FC2485 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5AE37AC02460175200FC2485 /* HogeTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeTrial.swift; sourceTree = "<group>"; };
+		5AFC1D5B24691B3100DDA67D /* KodomoRounded.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KodomoRounded.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C735320E44BA59365C6FF864 /* Pods_WordQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				5A42C953245C498100745981 /* WordQuiz */,
 				5A42C952245C498100745981 /* Products */,
+				5EC9EF6C757A042CAFE5248F /* Pods */,
+				77A84475C0490614F6932383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,45 @@
 		5A42C953245C498100745981 /* WordQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				5A42C971245D765700745981 /* correct.mp3 */,
+				5A42C970245D765700745981 /* wrong.mp3 */,
+				5A22C35F246954F2003351A7 /* mainBGM.mp3 */,
+				5A22C35E246954EE003351A7 /* quizBGM.mp3 */,
+				5A22C35C24693CF1003351A7 /* AP.ttf */,
+				5AFC1D5B24691B3100DDA67D /* KodomoRounded.otf */,
 				5A42C954245C498100745981 /* AppDelegate.swift */,
 				5A42C956245C498100745981 /* SceneDelegate.swift */,
 				5A42C958245C498100745981 /* ViewController.swift */,
+				5A42C968245D30D300745981 /* StartViewController.swift */,
+				5A22C362246A317B003351A7 /* ZukanViewController.swift */,
+				5A42C96A245D347800745981 /* CreateViewController.swift */,
+				5AE37ABE245F06B100FC2485 /* PostViewController.swift */,
+				5AB249E42464044B009897AF /* SettingViewController.swift */,
+				5A157A862468C427002802BB /* TopSettingViewController.swift */,
+				5AE37AC02460175200FC2485 /* HogeTrial.swift */,
 				5A42C95A245C498100745981 /* Main.storyboard */,
 				5A42C95D245C498700745981 /* Assets.xcassets */,
 				5A42C95F245C498700745981 /* LaunchScreen.storyboard */,
 				5A42C962245C498700745981 /* Info.plist */,
 			);
 			path = WordQuiz;
+			sourceTree = "<group>";
+		};
+		5EC9EF6C757A042CAFE5248F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47011A74B1B677CFC899BF8C /* Pods-WordQuiz.debug.xcconfig */,
+				5A64053BCB971130CECF4152 /* Pods-WordQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77A84475C0490614F6932383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49DEBCBC6548B2A1E9758353 /* Pods_WordQuiz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A42C965245C498700745981 /* Build configuration list for PBXNativeTarget "WordQuiz" */;
 			buildPhases = (
+				1FEFEA5E532A7354F4D25997 /* [CP] Check Pods Manifest.lock */,
 				5A42C94D245C498100745981 /* Sources */,
 				5A42C94E245C498100745981 /* Frameworks */,
 				5A42C94F245C498100745981 /* Resources */,
+				5B97968DC56377657785AFFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A22C361246954F2003351A7 /* mainBGM.mp3 in Resources */,
+				5A22C360246954F2003351A7 /* quizBGM.mp3 in Resources */,
+				5A22C35D24693CFD003351A7 /* AP.ttf in Resources */,
+				5AFC1D5C24691EA900DDA67D /* KodomoRounded.otf in Resources */,
+				5A42C973245D765700745981 /* correct.mp3 in Resources */,
+				5A42C972245D765700745981 /* wrong.mp3 in Resources */,
 				5A42C961245C498700745981 /* LaunchScreen.storyboard in Resources */,
 				5A42C95E245C498700745981 /* Assets.xcassets in Resources */,
 				5A42C95C245C498100745981 /* Main.storyboard in Resources */,
@@ -133,12 +204,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FEFEA5E532A7354F4D25997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B97968DC56377657785AFFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordQuiz/Pods-WordQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordQuiz/Pods-WordQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordQuiz/Pods-WordQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A42C94D245C498100745981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE37ABF245F06B100FC2485 /* PostViewController.swift in Sources */,
+				5A42C96B245D347800745981 /* CreateViewController.swift in Sources */,
+				5AE37AC12460175200FC2485 /* HogeTrial.swift in Sources */,
+				5AB249E52464044B009897AF /* SettingViewController.swift in Sources */,
+				5A22C363246A317B003351A7 /* ZukanViewController.swift in Sources */,
 				5A42C959245C498100745981 /* ViewController.swift in Sources */,
+				5A157A872468C427002802BB /* TopSettingViewController.swift in Sources */,
+				5A42C969245D30D300745981 /* StartViewController.swift in Sources */,
 				5A42C955245C498100745981 /* AppDelegate.swift in Sources */,
 				5A42C957245C498100745981 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +402,7 @@
 		};
 		5A42C966245C498700745981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47011A74B1B677CFC899BF8C /* Pods-WordQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +415,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tmyasu.WordQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5A42C967245C498700745981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A64053BCB971130CECF4152 /* Pods-WordQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tmyasu.WordQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
