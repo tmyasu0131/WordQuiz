@@ -276,7 +276,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正解にしたいテキスト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GM2-k2-EaT">
-                                                <rect key="frame" x="122" y="375" width="170" height="20"/>
+                                                <rect key="frame" x="137.5" y="375" width="139" height="17"/>
                                                 <fontDescription key="fontDescription" name="apricotJapanesefont" family="apricotJapanesefont" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -289,7 +289,7 @@
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ひらがなで入力" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AVa-VO-xTC">
-                                                <rect key="frame" x="107" y="405" width="200" height="34"/>
+                                                <rect key="frame" x="107" y="402" width="200" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="CjR-J5-cvI"/>
                                                 </constraints>
@@ -300,7 +300,7 @@
                                                 </connections>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXa-hI-sjo">
-                                                <rect key="frame" x="0.0" y="459" width="414" height="90"/>
+                                                <rect key="frame" x="0.0" y="456" width="414" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="m7x-eV-Vdr"/>
                                                 </constraints>
